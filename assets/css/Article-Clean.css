@@ -86,7 +86,15 @@ h1, h4, p {
   font-family: 'Roboto';
 }
 
-.main-section {
-  padding-bottom: 100px;
+@media (min-width: 768px) {
+  .main-section {
+    padding-bottom: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section {
+    padding-bottom: 500px;
+  }
 }
 
