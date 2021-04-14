@@ -1,0 +1,104 @@
+#navbar-icon {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  #navbar-icon {
+    margin-right: 15px;
+  }
+}
+
+.navbar-brand {
+  font-weight: 300;
+}
+
+.nav-item {
+  font-weight: 200;
+}
+
+.main-img {
+  padding-top: 20px;
+}
+
+.heading-div {
+  text-align: center;
+}
+
+#main-first-row {
+  align-items: center;
+}
+
+.section1header {
+  color: white;
+}
+
+.section1header {
+  font-weight: 200;
+}
+
+body {
+  padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+  #left-showcase-column {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.row.second-row {
+  align-items: center;
+}
+
+.section2heading {
+  font-weight: 200;
+  color: white;
+  text-align: center;
+}
+
+.imagecontainer {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section2heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.section2p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  .section2heading {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section2p {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+
+.section3icon {
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section3col {
+  text-align: center;
+  padding-top: initial;
+}
+
+.section3header {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
