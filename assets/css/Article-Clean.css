@@ -98,3 +98,19 @@ h1, h4, p {
   }
 }
 
+@media (min-width: 769px) {
+  #appstorebadge {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #appstorebadge {
+    width: 150px;
+  }
+}
+
+#featureContainer {
+  padding-top: 20px;
+}
+
