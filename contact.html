@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -40,22 +41,18 @@
             </div>
         </div>
     </nav>
-    <section class="main-section">
-        <section class="article-clean">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                        <div class="intro">
-                            <h1 class="text-center">Contact</h1>
-                        </div>
-                        <div class="text">
-                            <h4>Email</h4>
-                            <p>If for any reason you need to contact the developer of the app.&nbsp;<br><br>Please email me at:&nbsp;contact@dripmobile.app</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="contact-clean">
+        <div class="container">
+            <h3>Contact</h3>
+            <p id="contact-paragraph">If for any reason you need to contact the developer of the Drip. Please do so using the form below.</p>
+            <form data-bss-recipient="1ac0b7a1dc3520b377dfa09bdf018362" data-bss-subject="Contact Page Form Fill">
+                <h2 class="text-center">Contact us</h2>
+                <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+                <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+                <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+            </form>
+        </div>
     </section>
     <footer class="text-light bg-dark footer-basic" id="footer">
         <ul class="list-inline">
@@ -66,6 +63,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling.js"></script>
 </body>
